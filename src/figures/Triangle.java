@@ -10,9 +10,9 @@ public class Triangle implements GeomFigure {
     }
 
     @Override
-    public double square() {
-        double square = 0.5 * base * height;
-        System.out.println("Triangle square: " + square);
-        return square;
+    public double area() {
+        double area = 0.5 * base * height;
+        System.out.println("Triangle area: " + area);
+        return area;
     }
 }

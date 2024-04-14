@@ -7,18 +7,10 @@ public class Round implements GeomFigure{
         this.radius = radius;
     }
 
-    public double getRadius() {
-        return radius;
-    }
-
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-
     @Override
-    public double square() {
-        double square = Math.PI * Math.pow(radius, 2);
-        System.out.println("Round square: " + square);
-        return square;
+    public double area() {
+        double area = Math.PI * Math.pow(radius, 2);
+        System.out.println("Round area: " + area);
+        return area;
     }
 }

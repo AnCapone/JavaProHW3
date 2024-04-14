@@ -1,5 +1,5 @@
 package figures;
 
 public interface GeomFigure {
-    double square();
+    double area();
 }
