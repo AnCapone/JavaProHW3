@@ -1,12 +1,19 @@
 package participants;
 
 public class Robot implements Participants {
+    private String name;
     private int limitRun;
     private int limitJump;
 
-    public Robot(int limitRun, int limitJump) {
+    public Robot(String name, int limitRun, int limitJump) {
+        this.name = name;
         this.limitRun = limitRun;
         this.limitJump = limitJump;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 
     public int getLimitRun() {
