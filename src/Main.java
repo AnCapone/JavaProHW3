@@ -15,9 +15,9 @@ public class Main {
         ArrayList<GeomFigure> figures = new ArrayList<>();
         Random random = new Random();
         for (int i = 0; i < 5; i++) {
-            figures.add(new SquareFigure(random.nextInt(10)));
-            figures.add(new Triangle(random.nextInt(10), random.nextInt(10)));
-            figures.add(new Round(random.nextInt(10)));
+            figures.add(new SquareFigure(random.nextInt(10) + 1));
+            figures.add(new Triangle(random.nextInt(10) + 1, random.nextInt(10) + 1));
+            figures.add(new Round(random.nextInt(10) + 1));
         }
 
         double totalArea = 0;
