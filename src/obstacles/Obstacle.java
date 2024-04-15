@@ -1,5 +1,5 @@
 package obstacles;
 
-public interface Obstacles {
+public interface Obstacle {
     void overcome();
 }

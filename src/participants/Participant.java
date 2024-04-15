@@ -1,6 +1,8 @@
 package participants;
 
-public interface Participants {
+import obstacles.Obstacle;
+
+public interface Participant {
     void run();
     void jump();
 
@@ -8,4 +10,5 @@ public interface Participants {
 
     int getLimitJump();
     String getName();
+    boolean isOvercomeObstacle(Obstacle obstacle);
 }

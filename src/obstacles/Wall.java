@@ -1,6 +1,6 @@
 package obstacles;
 
-public class Wall implements Obstacles {
+public class Wall implements Obstacle {
      private int height;
 
     public Wall(int height) {

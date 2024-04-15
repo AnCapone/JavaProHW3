@@ -1,6 +1,6 @@
 package obstacles;
 
-public class RunningTrack implements Obstacles {
+public class RunningTrack implements Obstacle {
     private int length;
 
     public RunningTrack(int length) {
